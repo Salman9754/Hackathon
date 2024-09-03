@@ -14,6 +14,11 @@
     border-radius: 14px;
     background-color: transparent;
 }
+.nav-btn:hover{
+    background-color: black;
+    color: white;
+
+}
 
 .hero-head {
     font-size: 60px !important;
@@ -45,7 +50,7 @@
 .col1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .brand-row {
@@ -183,6 +188,14 @@
 
 
 @media screen and (max-width: 480px) {
+    .nav-btn{
+        width: 95%;
+        height: 40px;
+        margin: auto;
+    }
+    .col1{
+        gap: 20px;
+    }
     .hero-head {
         font-size: 40px !important;
     }
@@ -227,7 +240,7 @@
 
     .service-para {
 
-        width: 100%;
+        width: 95%;
     }
 
     .sec-img img {
